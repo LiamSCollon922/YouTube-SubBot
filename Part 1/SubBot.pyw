@@ -17,9 +17,9 @@ class SubBot:
     bellButton = 'var Bell = document.getElementsByClassName("style-scope ytd-toggle-button-renderer");'
     bellButtonClick = "Bell[1].click();"    
 
-    # channel url 
-    url = "https://www.youtube.com/mightyghosthack"
     
+    
+    # channel url 
     # store command code list in order to perform.
     listOfBrowser = ['start chrome '+url,'start firefox '+url]
 
